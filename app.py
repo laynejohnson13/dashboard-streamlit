@@ -26,7 +26,7 @@ st.caption('This visual gives us an idea as to length of employment per survey r
 
 
 ##linechart
-chart_data = pd.pollution(
+chart_data = pd.DataFrame(
     np.random.randn(20, 3),
     columns=['region_id', 'country_name', 'gdp'])
 st.line_chart(chart_data)
