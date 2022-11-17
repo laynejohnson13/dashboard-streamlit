@@ -28,7 +28,7 @@ st.caption('This visual gives us an idea as to length of employment per survey r
 ##linechart
 chart_data = pd.DataFrame(
     np.random.randn(20, 3),
-    columns=['region_id', 'country_name', 'gdp'])
+    columns=['composition_food_organic_waste_percent', 'composition_glass_percent'])
 st.line_chart(chart_data)
 
 
