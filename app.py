@@ -30,6 +30,7 @@ chart_data = pd.DataFrame(
     np.random.randn(20, 2),
     columns=['composition_food_organic_waste_percent', 'composition_glass_percent'])
 st.line_chart(chart_data)
+st.caption('This visual gives us an idea as to the global percentage of food and glass waste')
 
 
 ##histogram
