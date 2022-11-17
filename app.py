@@ -33,6 +33,8 @@ st.line_chart(chart_data)
 st.caption('This visual gives us an idea as to the global percentage of food and glass waste')
 
 
-##histogram
-#st.subheader('Organic Waste Percent by Region')
-#waste_percentage = pollution['composition_food_organic_waste_percent]
+##code block
+code = '''## Code behind the Bar Chart for Length of Employment
+employment_length = slp['How_long_have_you_been_working_as_a_Speech_Language_Pathologist_'].value_counts()
+st.bar_chart(employment_length)'''
+st.code(code, language='python')
